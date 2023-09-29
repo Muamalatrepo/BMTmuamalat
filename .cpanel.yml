@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp Contact.html $DEPLOYPATH
+    - /bin/cp -R about $DEPLOYPATH
+    - /bin/cp -R anggota $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R baitul_maal $DEPLOYPATH
+    - /bin/cp -R berita $DEPLOYPATH
+    - /bin/cp -R gallery $DEPLOYPATH
+    - /bin/cp -R kegiatan $DEPLOYPATH
+    - /bin/cp -R media $DEPLOYPATH
+    - /bin/cp -R product $DEPLOYPATH
